@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz For Practice</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        
+        function check(){
+            var valsel;
+            var mark=0;
+            let op1sel=document.getElementsByName("q1");
+            for(let radio of op1sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="Delhi"){
+                mark=mark+1;
+               
+            }
+            //****************************
+            let op2sel=document.getElementsByName("q2");
+            for(let radio of op2sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="Football"){
+                mark=mark+1;
+               
+            }
+
+            //****************************
+            let op3sel=document.getElementsByName("q3");
+            for(let radio of op3sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="2"){
+                mark=mark+1;
+               
+            }
+            //****************************
+            let op4sel=document.getElementsByName("q4");
+            for(let radio of op4sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="yellow"){
+                mark=mark+1;
+               
+            }
+            //****************************
+            let op5sel=document.getElementsByName("q5");
+            for(let radio of op5sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="love"){
+                mark=mark+1;
+               
+            }
+            //****************************
+            let op6sel=document.getElementsByName("q6");
+            for(let radio of op6sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="11"){
+                mark=mark+1;
+               
+            }
+            //****************************
+            let op7sel=document.getElementsByName("q7");
+            for(let radio of op7sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="black belt"){
+                mark=mark+1;
+               
+            }//**********************************
+            let op8sel=document.getElementsByName("q8");
+            for(let radio of op8sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="orange"){
+                mark=mark+1;
+               
+            }
+            //**********************************
+            let op9sel=document.getElementsByName("q9");
+            for(let radio of op9sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="japan"){
+                mark=mark+1;
+               
+            }
+            //**********************************
+            let op10sel=document.getElementsByName("q10");
+            for(let radio of op10sel){
+                if(radio.checked)
+                {
+                    valsel=radio.value;
+                    break;
+                }
+            }
+            if(valsel=="seven"){
+                mark=mark+1;
+               
+            }
+
+            alert("your total score is "+mark+"/10");
+        }
+    </script>
+    <form name="f1" onsubmit="check()">
+
+        Q1. What is the capital of India?<br/>
+        <input type="radio" id="q1option1" value="Delhi" name="q1"/>Delhi<br/><!--c-->
+        <input type="radio" id="q1option2" value="Mumbai" name="q1"/>Mumbai<br/>
+        <input type="radio" id="q1option3" value="Punjab" name="q1"/>Punjab<br/>
+
+        <br/><br/>
+        Q2. Which sport is known as "the beautiful game"?<br/>
+        <input type="radio" id="q2option1" value="Cricket" name="q2"/>Cricket<br/>
+        <input type="radio" id="q2option2" value="Football" name="q2"/>Football<br/><!--c-->
+        <input type="radio" id="q2option3" value="Basketball" name="q2"/>Basketball<br/>
+        <br/><br/>
+
+        Q3. In basketball, how many points is a standard shot worth within the arc?<br/>
+        <input type="radio" id="q3option1" value="2" name="q3"/>2 points<br/><!--c-->
+        <input type="radio" id="q3option2" value="3" name="q3"/>3 points<br/>
+        <input type="radio" id="q3option3" value="4" name="q3"/>4 points<br/>
+        <br/><br/>
+
+        Q4. What color are the goalposts in American football?<br/>
+        <input type="radio" id="q4option1" value="black" name="q4"/>black<br/>
+        <input type="radio" id="q4option2" value="red" name="q4"/>red<br/>
+        <input type="radio" id="q4option3" value="yellow" name="q4"/>yellow<br/><!--c-->
+        <br/><br/>
+
+        Q5. In tennis, what term is used for a score of zero?<br/>
+        <input type="radio" id="q5option1" value="null" name="q5"/>null<br/>
+        <input type="radio" id="q5option2" value="zero" name="q5"/>zero<br/>
+        <input type="radio" id="q5option3" value="love" name="q5"/>love<!--c-->
+        <br/><br/>
+
+        Q6. How many players are there in a standard soccer team lineup on the field at one time?<br/>
+        <input type="radio" id="q6option1" value="10" name="q6"/>10<br/>
+        <input type="radio" id="q6option2" value="11" name="q6"/>11<br/><!--c-->
+        <input type="radio" id="q6option3" value="12" name="q6"/>12
+        <br/><br/>
+
+        Q7. What is the highest color belt in most karate systems?<br/>
+        <input type="radio" id="q7option1" value="gold belt" name="q7"/>gold belt<br/>
+        <input type="radio" id="q7option2" value="black belt" name="q7"/>black belt<br/><!--c-->
+        <input type="radio" id="q7option3" value="red belt" name="q7"/>red belt
+        <br/><br/>
+
+        Q8. What is the color of an aircraft’s black box?<br/>
+        <input type="radio" id="q8option1" value="orange" name="q8"/>orange<br/><!--c-->
+        <input type="radio" id="q8option2" value="black" name="q8"/>black<br/> 
+        <input type="radio" id="q8option3" value="red" name="q8"/>red
+        <br/><br/>
+
+        Q9. Which country is known as the Land of the Rising Sun?<br/>
+        <input type="radio" id="q9option1" value="japan" name="q9"/>japan<br/><!--c-->
+        <input type="radio" id="q9option2" value="india" name="q9"/>india<br/> 
+        <input type="radio" id="q9option3" value="indonesia" name="q9"/>indonesia
+        <br/><br/>
+
+        Q10. How many continents are there on Earth?<br/>
+        <input type="radio" id="q10option1" value="five" name="q10"/>five<br/>
+        <input type="radio" id="q10option2" value="six" name="q10"/>six<br/> 
+        <input type="radio" id="q10option3" value="seven" name="q10"/>seven<!--c-->
+        <br/><br/>
+
+        <input type="submit" value="submit"/>
+    </form>
+</body>
+</html>
