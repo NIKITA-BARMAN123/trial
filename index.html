@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        form{
+            width: 80%;
+        }
+        form fieldset{
+            background-color: aliceblue;
+        }
+        input:hover{
+            background-color: blanchedalmond;
+        }
+        button{
+            background-color: lightblue;
+        }
+        button:hover{
+            background-color: aquamarine;
+        }
+        button:active{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <form id="frm" align="center" >
+        <fieldset>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="name"/>
+            &nbsp;&nbsp;
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="name"/>
+            <br/><br/>
+            <label for="email">email ID:</label>
+            <input type="email" name="email" id="email"/>
+            <br/><br/>
+            <label for="phone">Phone no.:</label>
+            <input type="number" name="phone" id="phone"/>
+            <br/><br/>
+            <label for="gender">Gender</label>
+            <br/>
+            <input type="radio" name="gender" value="f"/>Female &nbsp;
+            <input type="radio" name="gender" value="m"/>Male &nbsp;
+            <input type="radio" name="gender" value="o"/>Others &nbsp;
+
+            <br/><br/>
+
+            <button type="submit">SUBMIT</button>
+
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>
